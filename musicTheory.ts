@@ -1,7 +1,7 @@
 
 import { Note, Interval, Scale, Chord } from 'tonal';
 import type { FretboardNote, FoundScale, FoundChord } from '../types';
-import { TUNING, FRET_COUNT } from '../constants';
+import { TUNING, FRET_COUNT } from './constants';
 
 export const generateFretboardNotes = (): FretboardNote[][] => {
   return TUNING.map((startNote, stringIndex) => {

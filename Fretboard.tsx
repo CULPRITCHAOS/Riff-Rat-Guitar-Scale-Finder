@@ -1,7 +1,7 @@
 
 import React from 'react';
 import type { FretboardNote, FoundScale, FoundChord } from '../types';
-import { FRET_COUNT, FRET_MARKERS, DOUBLE_FRET_MARKERS } from '../constants';
+import { FRET_COUNT, FRET_MARKERS, DOUBLE_FRET_MARKERS } from './constants';
 
 interface NoteProps {
   note: FretboardNote;
