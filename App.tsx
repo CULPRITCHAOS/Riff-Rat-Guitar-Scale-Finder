@@ -1,9 +1,9 @@
 
 import React, { useState, useMemo, useCallback } from 'react';
 import type { FretboardNote, FoundScale, FoundChord } from './types';
-import Fretboard from './components/Fretboard';
-import ScaleModal from './components/ScaleModal';
-import ArpeggioModal from './components/ArpeggioModal';
+import Fretboard from './components/Fretboard.tsx';
+import ScaleModal from './components/ScaleModal.tsx';
+import ArpeggioModal from './components/ArpeggioModal.tsx';
 import { generateFretboardNotes, findScalesFromNotes, findArpeggiosFromNotes } from './utils/musicTheory';
 import { MusicNoteIcon, InfoIcon, ArpeggioIcon } from './constants';
 
