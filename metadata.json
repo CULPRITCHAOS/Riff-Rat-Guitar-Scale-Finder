@@ -1,6 +1,6 @@
 {
-  "name": "Guitar Scale Finder",
-  "description": "An interactive guitar fretboard to select notes and discover matching musical scales. Helps musicians understand music theory and find new creative possibilities.",
+  "name": "Riff Rat",
+  "description": "An interactive guitar fretboard to select notes and discover matching musical scales and arpeggios. Helps musicians understand music theory and find new creative possibilities.",
   "requestFramePermissions": [],
   "prompt": ""
 }

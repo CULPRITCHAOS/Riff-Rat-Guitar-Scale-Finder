@@ -4,6 +4,7 @@ import type { FretboardNote, FoundScale, FoundChord } from './types';
 import Fretboard from './Fretboard';
 import ScaleModal from './ScaleModal';
 import ArpeggioModal from './ArpeggioModal';
+import BrandedFooter from './BrandedFooter';
 import { generateFretboardNotes, findScalesFromNotes, findArpeggiosFromNotes } from './musicTheory';
 import { MusicNoteIcon, InfoIcon, ArpeggioIcon } from './constants';
 
@@ -107,8 +108,8 @@ const App: React.FC = () => {
       />
       <div className="max-w-7xl mx-auto">
         <header className="text-center mb-8">
-          <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-teal-400">
-            Guitar Scale & Arpeggio Finder
+          <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-red-500 via-orange-500 to-yellow-500">
+            Riff Rat
           </h1>
           <p className="mt-4 text-lg text-slate-400 max-w-3xl mx-auto">
             Select 3 to 6 notes on the fretboard, then find matching scales or arpeggios.
@@ -166,9 +167,7 @@ const App: React.FC = () => {
 
         </main>
 
-        <footer className="text-center mt-12 text-slate-500 text-sm">
-            <p>Built with React, Tailwind CSS, and Tonal.js</p>
-        </footer>
+        <BrandedFooter />
       </div>
     </div>
   );
