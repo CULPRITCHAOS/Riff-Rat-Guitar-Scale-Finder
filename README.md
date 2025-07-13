@@ -1,6 +1,6 @@
 # Riff Rat 🎸
 
-An interactive guitar fretboard application that helps musicians discover scales and arpeggios based on selected notes. Perfect for guitarists looking to understand music theory, find new chord progressions, or explore creative possibilities on the fretboard.
+An interactive guitar fretboard application mobile friendly, that helps musicians discover scales and arpeggios based on selected notes. Perfect for guitarists looking to understand music theory, find new chord progressions, or explore creative possibilities on the fretboard.
 
 ![Riff Rat Screenshot](https://via.placeholder.com/800x400/1e293b/ffffff?text=Riff+Rat+Fretboard)
 
