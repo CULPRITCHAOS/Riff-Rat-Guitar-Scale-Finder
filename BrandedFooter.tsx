@@ -33,7 +33,7 @@ const BrandedFooter: React.FC = () => {
         </div>
       </div>
       
-      <style jsx>{`
+      <style>{`
         .culprit-text {
           text-shadow: 0 0 10px rgba(239, 68, 68, 0.5);
           filter: drop-shadow(0 0 8px rgba(251, 146, 60, 0.3));
