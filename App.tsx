@@ -1,10 +1,10 @@
 
 import React, { useState, useMemo, useCallback } from 'react';
 import type { FretboardNote, FoundScale, FoundChord } from './types';
-import Fretboard from './components/Fretboard';
-import ScaleModal from './components/ScaleModal';
-import ArpeggioModal from './components/ArpeggioModal';
-import { generateFretboardNotes, findScalesFromNotes, findArpeggiosFromNotes } from './utils/musicTheory';
+import Fretboard from './Fretboard';
+import ScaleModal from './ScaleModal';
+import ArpeggioModal from './ArpeggioModal';
+import { generateFretboardNotes, findScalesFromNotes, findArpeggiosFromNotes } from './musicTheory';
 import { MusicNoteIcon, InfoIcon, ArpeggioIcon } from './constants';
 
 const App: React.FC = () => {
