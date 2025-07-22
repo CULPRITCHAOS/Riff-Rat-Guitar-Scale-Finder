@@ -41,8 +41,8 @@ An interactive guitar fretboard application mobile friendly, that helps musician
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/CULPRITCHAOS/Guitar-Scale-Finder-.git
-   cd Guitar-Scale-Finder-
+   git clone https://github.com/<your-username>/Riff-Rat-Guitar-Scale-Finder.git
+   cd Riff-Rat-Guitar-Scale-Finder
    ```
 
 2. **Install dependencies**
@@ -50,12 +50,15 @@ An interactive guitar fretboard application mobile friendly, that helps musician
    npm install
    ```
 
-3. **Start the development server**
+3. **Configure the API key**
+   - Copy `.env.local.example` to `.env.local`
+   - Replace `YOUR_API_KEY` with your Gemini API key
+
+4. **Start the development server**
    ```bash
    npm run dev
    ```
-
-4. **Open your browser**
+5. **Open your browser**
    Navigate to `http://localhost:5173` to see the app
 
 ### Building for Production
