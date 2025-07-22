@@ -1,6 +1,6 @@
 
 import React from 'react';
-import type { FoundScale } from '../types';
+import type { FoundScale } from './types';
 
 interface ScaleModalProps {
   isOpen: boolean;

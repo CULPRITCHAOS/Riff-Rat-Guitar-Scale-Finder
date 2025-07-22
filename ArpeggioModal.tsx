@@ -1,6 +1,6 @@
 
 import React from 'react';
-import type { FoundChord } from '../types';
+import type { FoundChord } from './types';
 
 interface ArpeggioModalProps {
   isOpen: boolean;
