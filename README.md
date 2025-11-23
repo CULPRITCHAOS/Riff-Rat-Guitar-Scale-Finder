@@ -50,15 +50,12 @@ An interactive guitar fretboard application mobile friendly, that helps musician
    npm install
    ```
 
-3. **Configure the API key**
-   - Copy `.env.local.example` to `.env.local`
-   - Replace `YOUR_API_KEY` with your Gemini API key
 
-4. **Start the development server**
+3. **Start the development server**
    ```bash
    npm run dev
    ```
-5. **Open your browser**
+4. **Open your browser**
    Navigate to `http://localhost:5173` to see the app
 
 ### Building for Production
